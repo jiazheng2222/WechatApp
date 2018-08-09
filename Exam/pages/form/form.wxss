@@ -1,0 +1,32 @@
+
+
+label {
+  display: inline-block;
+  min-width: 270rpx;
+  margin-right: 10rpx;
+}
+form{
+  width: 100%;
+}
+
+.picker-text {
+  margin-left: 20rpx;
+  position: relative;
+}
+
+.page-section{
+  font-size: medium;
+  margin-top: 10rpx;
+  margin-bottom: 20rpx;
+}
+
+.container{
+  margin-left: 10rpx;
+  margin-right: 5rpx;
+}
+
+.line-css{
+  height: 2rpx;
+  background:#888;
+  margin: 0 5rpx;
+}

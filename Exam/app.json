@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/text/text",
+    "pages/form/form",
+    "pages/request/request"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MyTest",
+    "navigationBarTextStyle":"black"
+  }
+}

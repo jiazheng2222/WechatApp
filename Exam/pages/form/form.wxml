@@ -1,0 +1,52 @@
+
+<view class="container">
+
+  <view class="page-body">
+    <form catchsubmit="formSubmit" catchreset="formReset">
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">1. Books Forever, Inc., uses short-term bank debt to buy inventory. Assuming an initial current ratio that is greater than 1, and an initial quick (or acid test) ratio that is less than 1, what is the effect of these transactions on the current ratio and the quick ratio? 
+        </view>
+        <radio-group name="radio">
+          <label><radio value="radio1"/>A. Both ratios will decrease.</label>
+          <label><radio value="radio2"/>B. Neither ratio will decrease.</label>
+          <label><radio value="radio3"/>C. Only one ratio will decrease.</label>
+        </radio-group>
+      </view>
+
+      <view class="line-css"></view>
+
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">2. Which of the following statements regarding the fnancial statem ent reporting of leases is most accurate ? 
+        </view>
+        <checkbox-group name="checkbox">
+          <label><checkbox value="checkbox1"/>A. Under an operating lease, the lessee treats the entire lease payment as a cash outfow from operations. </label>
+          <label><checkbox value="checkbox2"/>B. The lessee’s current ratio is the same whether a lease is treated as an operating or fnance lease. </label>
+          <label><checkbox value="checkbox2"/>C. At the inception of a direct fnancing lease, the lessor recogni zes gross proft. </label>
+        </checkbox-group>
+      </view>
+
+      <view class="line-css"></view>
+
+      <view class="page-section">
+        <view class="page-section-title">3. A construction frm uses the percentage-of-completion method to recognize revenue from long-term contracts. In its next reporting period, the frm will adopt the converged accounting standards that were issued in May 2014. Compared to the prior accounting standards, in that period the frm is most likely to recognize: 
+        </view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd">
+              <input class="weui-input" name="input" placeholder="Sample input" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="line-css"></view>
+
+      <view class="btn-area">
+        <button bindtap="makeRequest" type="primary" formType="submit">Submit</button>
+        <button formType="reset">Reset</button>
+      </view>
+    </form>
+  </view>
+
+  <template is="foot" />
+</view>
